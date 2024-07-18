@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  background-color: rgb(19, 144, 144);
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(19, 9, 9);
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgb(155, 163, 173);
+  font-size: 25px;
+}
+
+.row{
+  margin: 6px 0;
+}
+.row input{
+  width: 290px;
+  font-size: 25px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(3, 1, 1);
+    border-radius: 6px;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 43px;
+    color: rgb(96, 3, 3);
+  }
+
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+  
+  .h1{
+    font-size: 50px;
+  }
